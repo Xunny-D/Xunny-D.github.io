@@ -1,2 +1,5 @@
 # PortfolioWebsite
-Portfolio Website using Github Pages
+
+Portfolio Website hosted through Github Pages
+
+Live through https://xunny-d.github.io/PortfolioWebsite/Code/index.html
