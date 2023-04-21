@@ -2,4 +2,4 @@
 
 Portfolio Website hosted through Github Pages
 
-Live through https://xunny-d.github.io/PortfolioWebsite
+Live through https://xunny-d.github.io
