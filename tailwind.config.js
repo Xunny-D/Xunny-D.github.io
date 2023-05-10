@@ -10,8 +10,7 @@ module.exports = {
         'houstonNeon': 'url(/Dependencies/img/computersNeon.JPG)'
       },
       fontFamily: {
-        'Revamped':['Revamped', 'sans-serif'],
-        'cyberpunk':['Cyberpunk', 'sans-serif']
+        'Cyberpunk':['Cyberpunk', 'sans-serif']
       },
     },
   },
