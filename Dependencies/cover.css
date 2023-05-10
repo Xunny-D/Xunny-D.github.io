@@ -1,60 +1,20 @@
-*
- * Globals
- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
+@layer components{
+    .text-neon-100{
+        @apply bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-extrabold;
+    }
 }
 
+@font-face {
+    font-family: 'Revamped';
+    src: local('Revamped'), url(/Dependencies/fonts/Revamped.ttf) format('ttf');
+  }
 
-/*
- * Base structure
- */
-
-#nav-bar{
- background-color: #333; 
-}
-
-.nav-gap {
-
-  margin: auto 0 0 0;
-  background-image: url("img/houstonBackground.jpg");
-  background-size: cover;
-
-}
-
-.cover-container {
-  max-width: 42em;
-}
-
-
-/*
- * Header
- */
-
-.nav-masthead .nav-link {
-  padding: .25rem 0;
-  font-weight: 700;
-  color: rgba(255, 255, 255, .5);
-  background-color: transparent;
-  border-bottom: .25rem solid transparent;
-}
-
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, .25);
-}
-
-.nav-masthead .nav-link + .nav-link {
-  margin-left: 1rem;
-}
-
-.nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
-}
+@font-face {
+    font-family: 'Cyberpunk';
+    src: local('Cyberpunk'), url(/Dependencies/fonts/CyberwayRiders.ttf) format('ttf');
+  }
+  

@@ -6,4 +6,7 @@ Live through https://xunny-d.github.io
 
 Tech Stack: Vanilla JavaScript, HTML, CSS, & Tailwind
 
-New site built with Angular will be live May 25th. 
+NOTE: Tailwind does not support IE browsers.
+Tailwind CSS v3.0 is designed for and tested on the latest stable versions of Chrome, Firefox, Edge, and Safari.
+
+New site built with Nest.js will be live May 25th.
