@@ -3,13 +3,52 @@
 @tailwind utilities;
 
 @layer components{
-    .text-neon-100{
-        @apply bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-extrabold;
+    .text-neon-500{
+      @apply bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500 font-extrabold;
     }
+}
+
+@layer components{
+    .text-neon-400{
+      @apply bg-clip-text text-transparent bg-gradient-to-r from-pink-400 to-violet-400 font-extrabold;
+    }
+}
+
+@layer components{
+      .text-neon-300{
+        @apply bg-clip-text text-transparent bg-gradient-to-r from-pink-300 to-violet-300 font-extrabold;
+      }
+}
+
+@layer components{
+      .bg-neon-600{
+        @apply bg-gradient-to-r from-pink-600 to-violet-600;
+      }
 }
 
 @font-face {
     font-family: 'Cyberpunk';
-    src: local('Cyberpunk'), url(/Dependencies/fonts/CyberwayRiders.ttf) format('ttf');
+    src: url(./fonts/CyberwayRiders.ttf);
+    font-weight: 100;
+  }
+
+  @font-face {
+    font-family: 'Revamped';
+    src: url(./fonts/Revamped.ttf);
+  }
+
+  @font-face {
+    font-family: 'Hacked';
+    src: url(./fonts/Hacked.ttf);
+  }
+
+  @font-face {
+    font-family: 'Alpha';
+    src: url(./fonts/Alpha.ttf);
+  }
+
+  @font-face {
+    font-family: 'Bohemian';
+    src: url(./fonts/Bohemian.ttf);
   }
   
