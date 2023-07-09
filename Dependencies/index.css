@@ -654,6 +654,10 @@ video {
   display: flex;
 }
 
+.inline-flex {
+  display: inline-flex;
+}
+
 .hidden {
   display: none;
 }
@@ -691,6 +695,10 @@ video {
   width: 50%;
 }
 
+.w-\[\%\] {
+  width: %;
+}
+
 .w-\[10vh\] {
   width: 10vh;
 }
@@ -699,12 +707,8 @@ video {
   width: 150%;
 }
 
-.w-\[32vh\] {
-  width: 32vh;
-}
-
-.w-\[91\%\] {
-  width: 91%;
+.w-\[30vh\] {
+  width: 30vh;
 }
 
 .w-\[95\%\] {
@@ -724,12 +728,56 @@ video {
   width: 100vw;
 }
 
-.w-\[30vh\] {
-  width: 30vh;
+.w-\[98\%\] {
+  width: 98%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[50vh\] {
+  width: 50vh;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[20\%\] {
+  width: 20%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[40\] {
+  width: 40;
+}
+
+.w-\[40\%\] {
+  width: 40%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .shrink-0 {
   flex-shrink: 0;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .basis-1\/12 {
@@ -752,24 +800,8 @@ video {
   flex-basis: 75%;
 }
 
-.basis-7\/12 {
-  flex-basis: 58.333333%;
-}
-
-.basis-6\/12 {
-  flex-basis: 50%;
-}
-
-.basis-8\/12 {
-  flex-basis: 66.666667%;
-}
-
-.basis-10\/12 {
-  flex-basis: 83.333333%;
-}
-
-.basis-11\/12 {
-  flex-basis: 91.666667%;
+.basis-1\/5 {
+  flex-basis: 20%;
 }
 
 @keyframes fadeIn {
@@ -867,16 +899,20 @@ video {
   flex-wrap: wrap;
 }
 
-.flex-nowrap {
-  flex-wrap: nowrap;
-}
-
 .justify-center {
   justify-content: center;
 }
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-stretch {
+  justify-content: stretch;
 }
 
 .gap-x-\[10vh\] {
@@ -890,6 +926,36 @@ video {
 
 .gap-y-\[4vh\] {
   row-gap: 4vh;
+}
+
+.gap-x-\[\] {
+  -moz-column-gap: ;
+       column-gap: ;
+}
+
+.gap-x-\[2vh\] {
+  -moz-column-gap: 2vh;
+       column-gap: 2vh;
+}
+
+.gap-x-\[1vh\] {
+  -moz-column-gap: 1vh;
+       column-gap: 1vh;
+}
+
+.gap-x-\[0\.5vh\] {
+  -moz-column-gap: 0.5vh;
+       column-gap: 0.5vh;
+}
+
+.gap-x-\[vh\] {
+  -moz-column-gap: vh;
+       column-gap: vh;
+}
+
+.gap-x-1 {
+  -moz-column-gap: 0.25rem;
+       column-gap: 0.25rem;
 }
 
 .overflow-hidden {
@@ -1047,34 +1113,14 @@ video {
   background-repeat: no-repeat;
 }
 
-.px-\[10vh\] {
-  padding-left: 10vh;
-  padding-right: 10vh;
+.px-\[5vh\] {
+  padding-left: 5vh;
+  padding-right: 5vh;
 }
 
 .py-\[4vh\] {
   padding-top: 4vh;
   padding-bottom: 4vh;
-}
-
-.px-\[2vh\] {
-  padding-left: 2vh;
-  padding-right: 2vh;
-}
-
-.px-\[mt-2\] {
-  padding-left: mt-2;
-  padding-right: mt-2;
-}
-
-.px-\[3vh\] {
-  padding-left: 3vh;
-  padding-right: 3vh;
-}
-
-.px-\[5vh\] {
-  padding-left: 5vh;
-  padding-right: 5vh;
 }
 
 .pl-\[3vh\] {
@@ -1120,6 +1166,16 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -1494,6 +1550,19 @@ video {
     flex-basis: 83.333333%;
   }
 
+  .sm\:basis-1\/4 {
+    flex-basis: 25%;
+  }
+
+  .sm\:flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .sm\:gap-x-0 {
+    -moz-column-gap: 0px;
+         column-gap: 0px;
+  }
+
   .sm\:bg-neonCity {
     background-image: url(/Dependencies/img/neonCity.png);
   }
@@ -1528,6 +1597,11 @@ video {
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .sm\:brightness-100 {
