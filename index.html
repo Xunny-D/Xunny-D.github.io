@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html class="scroll-smooth" lang="en">
     <head>
         <title>Danny Huynh Portfolio</title>
         <meta charset="utf-8">
@@ -13,105 +13,197 @@
 
     </head>
     <body class="bg-zinc-900 text-slate-50">
-        <!--sm:h-128 md:h-176 lg:h-256-->
-        <header class="scroll-smooth w-screen h-screen relative">
-            <div class="fixed mb-5 text-center w-screen z-50">              
-                <nav class="transition-all w-full sm:w-full md:w-[60%] lg:w-2/3 xl:w-2/3 2xl:w-2/3 h-fit mx-auto bg-zinc-900 rounded">
-                    <ul class="flex flex-wrap flex-row">
-                    <li class="transition basis-1/4 text-neon-500 delay-75 hover:text-neon-300 text-center font-Alpha font-thin relative group"><span class="transition -z-50 absolute rounded opacity-5 group-hover:bg-neon-300 w-full h-full"></span><a class="lg:text-lg transition ease-in-out border-slate-400 border-l border-b border-t rounded inline-block w-full hover:shadow-xl hover:shadow-violet-500/50" href="#">Home</a></li>  
-                    <li class="transition basis-1/4 text-neon-500 delay-75 hover:text-neon-300 text-center font-Alpha font-thin relative group"><span class="transition -z-50 absolute rounded opacity-5 group-hover:bg-neon-300 w-full h-full"></span><a class="lg:text-lg transition ease-in-out border-slate-400 border-b border-t rounded inline-block w-full hover:shadow-xl hover:shadow-violet-500/50" href="#">Biography</a></li>  
-                    <li class="transition basis-1/4 text-neon-500 delay-75 hover:text-neon-300 text-center font-Alpha font-thin relative group"><span class="transition -z-50 absolute rounded opacity-5 group-hover:bg-neon-300 w-full h-full"></span><a class="lg:text-lg transition ease-in-out border-slate-400 border-b border-t rounded inline-block w-full hover:shadow-xl hover:shadow-violet-500/50" href="#">Contact</a></li>                         
-                    <li class="transition basis-1/4 text-neon-500 delay-75 hover:text-neon-300 text-center font-Alpha font-thin relative group"><span class="transition -z-50 absolute rounded opacity-5 group-hover:bg-neon-300 w-full h-full"></span><a class="lg:text-lg transition ease-in-out border-slate-400 border-r border-b border-t rounded inline-block w-full hover:shadow-xl hover:shadow-violet-500/50" href="#">Portfolio</a></li>  
-                    </ul>
-                </nav>
-            </div>
-            <div class="transition-all absolute w-full h-full brightness-105 
-            bg-blend-overlay bg-zinc-500 bg-cover bg-neonMobileTunnel sm:bg-neonWave 
-            md:bg-neonWave lg:bg-neonWave bg-[center_0rem] sm:bg-[center_0rem] md:bg-[center_-35px] lg:bg-[center_0rem] 
-            xl:bg-[center_-13rem] bg-no-repeat bg-fixed sm:block md:block lg:block">
+
+        <!--Navbar-->
+        <div class="fixed mb-5 text-center w-screen z-50 animate-transitionFromTop">              
+            <nav class="transition-all w-full sm:w-full md:w-[60%] lg:w-2/3 xl:w-2/3 2xl:w-2/3 h-fit mx-auto bg-zinc-900 rounded">
+                <ul class="flex flex-wrap flex-row">
+                <li class="basis-1/4 text-neon-500 delay-75 hover:text-neon-300 transition-color ease-in-out text-center font-Alpha font-thin relative group"><span class="transition -z-50 absolute rounded opacity-5 group-hover:bg-neon-300 w-full h-full"></span><a id="homeNav" class="lg:text-lg transition ease-in-out border-slate-400 border-l border-b border-t rounded inline-block w-full hover:shadow-xl hover:shadow-violet-500/90 active:text-pink-200" href="#Home">Home</a></li>  
+                <li class="basis-1/4 text-neon-500 delay-75 hover:text-neon-300 transition-color ease-in-out text-center font-Alpha font-thin relative group"><span class="transition -z-50 absolute rounded opacity-5 group-hover:bg-neon-300 w-full h-full"></span><a id="biographyNav" class="lg:text-lg transition ease-in-out border-slate-400 border-b border-t rounded inline-block w-full hover:shadow-xl hover:shadow-violet-500/90 active:text-pink-200" href="#Biography">Biography</a></li>  
+                <li class="basis-1/4 text-neon-500 delay-75 hover:text-neon-300 transition-color ease-in-out text-center font-Alpha font-thin relative group"><span class="transition -z-50 absolute rounded opacity-5 group-hover:bg-neon-300 w-full h-full"></span><a id="contactsNav" class="lg:text-lg transition ease-in-out border-slate-400 border-b border-t rounded inline-block w-full hover:shadow-xl hover:shadow-violet-500/90 active:text-pink-200" href="#Contacts">Contact</a></li>                         
+                <li class="basis-1/4 text-neon-500 delay-75 hover:text-neon-300 transition-color ease-in-out text-center font-Alpha font-thin relative group"><span class="transition -z-50 absolute rounded opacity-5 group-hover:bg-neon-300 w-full h-full"></span><a id="portfolioNav" class="lg:text-lg transition ease-in-out border-slate-400 border-r border-b border-t rounded inline-block w-full hover:shadow-xl hover:shadow-violet-500/90 active:text-pink-200" href="#Portfolio">Portfolio</a></li>  
+                </ul>
+            </nav>
+        </div>
+
+        <header id="Home" class="headTarget animate-fadeIn ease-in-out will-change-transform v transition-all opacity-100 scroll-smooth w-screen h-screen relative">
+            <div class="transition-all absolute w-full h-full brightness-110
+            bg-blend-overlay bg-neutral-600 bg-cover bg-neonMobileCity sm:bg-neonCity 
+            md:bg-neonCity lg:bg-neonCity xl:bg-neonCity 2xl:bg-neonCity bg-[center_0rem] sm:bg-[center_0rem] md:bg-[center_0rem] lg:bg-[center_-10rem] 
+            xl:bg-[center_-14rem] 2xl:bg-[center_-24rem] bg-no-repeat bg-fixed sm:block md:block lg:block">
                 <div class="w-full h-fit mt-32 sm:mt-40 md:mt-0 lg:mt-4 xl:mt-5 2xl:mt-5">
-                        <h1 class="transition-all w-fit antialiased mx-auto lg:mt-20 md:mt-24 text-center text-neon-600 lg:text-7.5xl 
-                        md:text-6xl sm:text-5xl text-5xl font-extralight font-Cyberpunk drop-shadow-[0_0_2px_#d946ef] brightness-110 
-                        sm:brightness-100 md:brightness-100">
+                        <h1 class="animate-transitionToRight transition-all w-fit antialiased mx-auto lg:mt-20 md:mt-24 text-center text-neon-600 lg:text-7.5xl 
+                        md:text-6xl sm:text-5xl text-5xl font-extralight font-Cyberpunk drop-shadow-[0_0_2px_#d946ef] brightness-100
+                        sm:brightness-150 md:brightness-150 nameTarget">
                             Danny Huynh
                         </h1>
-                        <div class="min-h-fit md:h-44 mt-6 sm:mt-5 md:mt-10 lg:mt-12 xl:mt-12 2xl:mt-5 flex flex-wrap flex-col lg:gap-y-6">
+                        <div class="md:h-44 mt-6 sm:mt-5 md:mt-10 lg:mt-12 xl:mt-12 2xl:mt-5 flex flex-wrap flex-col lg:gap-y-6">
                             <p class="hidden sm:inline md:inline lg:inline xl:inline 2xl:inline
                             mt-2 sm:mt-0 md:mt-0 lg:-mt-2 transition-all leading-none h-fit antialiased uppercase 
-                            lg:basis-1/3 md:basis-1/4 mx-auto text-blueNeon-600 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-xl 
+                            lg:basis-1/3 md:basis-1/4 mx-auto text-center text-blueNeon-600 2xl:text-3xl xl:text-3xl lg:text-2xl md:text-xl 
                             sm:text-sm text-lg font-normal tracking-wide drop-shadow-[19px_12px_4px_black] brightness-110 sm:brightness-100 
-                            md:brightness-100 lg:brightness-110 font-Alpha">
-                                Engineering the future for software and hardware
+                            md:brightness-100 lg:brightness-110 font-Alpha animate-transitionToRight">
+                                Computer Engineer<br>Software and Hardware Junkie
                             </p>
                             <p class="w-1/2 text-center sm:hidden md:hidden lg:hidden xl:hidden 2xl:hidden mt-2 transition-all leading-none
                             h-fit antialiased uppercase mx-auto text-blueNeon-600 text-base font-normal 
-                            tracking-wide drop-shadow-[19px_12px_4px_black] brightness-110 font-Alpha">
-                                Engineering the future for software and hardware
+                            tracking-wide drop-shadow-[19px_12px_4px_black] brightness-110 font-Alpha animate-transitionToRight">
+                                Computer Engineer<br>Software and Hardware Junkie
                             </p>
                             <p class="sm:mt-2 md:mt-0 lg:-mt-6 xl:-mt-5 2xl:mt-0 transition-all leading-none antialiased 
                             font-Alpha basis-1/3 mx-auto text-neon-600 lg:text-4xl md:text-2xl sm:text-base font-bold 
-                            tracking-normal drop-shadow-[19px_12px_4px_black] brightness-110 sm:brightness-100 md:brightness-100 lg:brightness-110
-                            hidden sm:inline md:inline lg:inline xl:inline 2xl:inline">
+                            tracking-normal drop-shadow-[19px_12px_4px_black] brightness-110 sm:brightness-125 md:brightness-100 lg:brightness-110
+                            hidden sm:inline md:inline lg:inline xl:inline 2xl:inline animate-transitionToRight">
                                 Full-Stack Development | Embedded Systems | IoT
                             </p>
                             <p class="mt-2 transition-all leading-10 antialiased 
                             font-Alpha text-center basis-1/3 mx-auto text-neonPinkToPurple-500 text-xl font-bold 
                             tracking-normal drop-shadow-[19px_12px_4px_black] brightness-110
-                            inline-block sm:hidden md:hidden lg:hidden xl:hidden 2xl:hidden">
+                            inline-block sm:hidden md:hidden lg:hidden xl:hidden 2xl:hidden animate-transitionToRight">
                                 Full-Stack Development<br>Embedded Systems<br>IoT
                             </p>
+                        </div>
+                        <!-- socials -->
+                        <div>
+
                         </div>
                 </div>
                 <div class="w-fit mx-auto"></div>
             </div>
         </header>
-        
-        <div class="scrollTarget transition-height ease-out will-change-transform
-        overflow-hidden duration-15s w-screen bg-neon-600 border-2 border-double border-pink-500/25
-        shadow-2xl shadow-pink-500 bg-blend-overlay bg-slate-800">
-            <div class="w-fit mx-auto py-2 text-center text-neon-600 font-Cyberpunk font-extralight
-            text-6xl drop-shadow-[0_0_2px_#d946ef]">
-                Portfolio
-            </div>
-        </div>
 
-        <main class="shadow-2xl shadow-pink-500">
-            <div class="w-screen h-[200vh] scroll-smooth transition-all relative">
-                <div class="absolute transition-all w-full h-full scroll-smooth bg-blend-overlay bg-zinc-700
-                bg-vintageNeon bg-no-repeat bg-center bg-cover bg-fixed">
-                    <div class="w-full h-fit flex flex-wrap flex-col mt-4">
-                        <div class="w-full h-fit flex flex-wrap flex-col">
-                            <div class="w-fit mx-auto overflow-hidden">
-                                <input id="projectOne" class="w-fit hidden peer" type="checkbox">
-                                <label for="projectOne" class="block cursor-pointer w-fit mx-auto text-neon-600 font-Alpha font-thin
-                                text-2xl drop-shadow-[0_0_2px_#d946ef] select-none brightness-110">Electric Longboard</label>
-                                <section class="transition-max-height duration-0.75s ease-in-out will-change-transform 
-                                w-[50vh] overflow-hidden max-h-0 peer-checked:max-h-[100vh]">
-                                    test
-                                </section>                                
-                            </div>
-
-                            
+        <main id="Portfolio" class="animate-fadeIn ease-in-out will-change-transform shadow-inner shadow-pink-500">
+            <div class="w-screen h-[300vh] scroll-smooth transition-all relative">
+                <div class="absolute transition-all w-full h-full bg-blend-overlay bg-zinc-600
+                bg-neonMobileRetro sm:bg-neonRetro md:bg-neonRetro lg:bg-neonRetro xl:bg-neonRetro 2xl:bg-neonRetro
+                 bg-no-repeat bg-[center_0rem] bg-cover bg-fixed flex flex-wrap justify-between">
+                    <div class="basis-2/12 sm:basis-1/12 md:basis-1/12 lg:basis-1/12 xl:basis-1/12 2xl:basis-1/12 mt-[6.5vh] w-fit h-full ">
+                        <div class="overflow-hidden w-fit h-fit text-neon-600 font-Cyberpunk font-extralight text-6xl drop-shadow-[0_0_2px_#d946ef] 
+                    flex flex-wrap flex-col gap-y-5 bg-white">
+                            <p class="scrollTarget transition-all duration-200 ease-in-out will-change-transform
+                            overflow-hidden w-[10vh] text-neon-600 text-center font-Alpha font-extralight
+                            text-6xl drop-shadow-[0_0_2px_#d946ef]">P</p>
+                            <p class="scrollTarget transition-all duration-200 ease-in-out will-change-transform
+                            overflow-hidden w-[10vh] text-neon-600 text-center font-Alpha font-extralight
+                            text-6xl drop-shadow-[0_0_2px_#d946ef]">o</p>
+                            <p class="scrollTarget transition-all duration-200 ease-in-out will-change-transform
+                            overflow-hidden w-[10vh] text-neon-600 text-center font-Alpha font-extralight
+                            text-6xl drop-shadow-[0_0_2px_#d946ef]">r</p>
+                            <p class="scrollTarget transition-all duration-200 ease-in-out will-change-transform
+                            overflow-hidden w-[10vh] text-neon-600 text-center font-Alpha font-extralight
+                            text-6xl drop-shadow-[0_0_2px_#d946ef]">t</p>
+                            <p class="scrollTarget transition-all duration-200 ease-in-out will-change-transform
+                            overflow-hidden w-[10vh] text-neon-600 text-center font-Alpha font-extralight
+                            text-6xl drop-shadow-[0_0_2px_#d946ef]">f</p>
+                            <p class="scrollTarget transition-all duration-200 ease-in-out will-change-transform
+                            overflow-hidden w-[10vh] text-neon-600 text-center font-Alpha font-extralight
+                            text-6xl drop-shadow-[0_0_2px_#d946ef] ml-[0.2vh]">o</p>
+                            <p class="scrollTarget transition-all duration-200 ease-in-out will-change-transform
+                            overflow-hidden w-[10vh] text-neon-600 text-center font-Alpha font-extralight
+                            text-6xl drop-shadow-[0_0_2px_#d946ef]">l</p>
+                            <p class="scrollTarget transition-all duration-200 ease-in-out will-change-transform
+                            overflow-hidden w-[10vh] text-neon-600 text-center font-Alpha font-extralight
+                            text-6xl drop-shadow-[0_0_2px_#d946ef]">I</p>
+                            <p class="scrollTarget transition-all duration-200 ease-in-out will-change-transform
+                            overflow-hidden w-[10vh] text-neon-600 text-center font-Alpha font-extralight
+                            text-6xl drop-shadow-[0_0_2px_#d946ef] ml-[0.3vh]">o</p>
+                        </div>
+                    </div>   
+                    <div class="w-[32vh] sm:w-fit md:w-fit lg:w-fit xl:w-fit 2xl:w-fit 
+                    basis-9/12 sm:basis-10/12 md:basis-10/12 lg:basis-11/12 xl:basis-11/12 2xl:basis-11/12 
+                    h-full mt-[6.5vh] flex flex-wrap flex-col gap-y-[4vh] sm:pr-[5vh] md:pr-[15vh] lg:pr-[15vh] xl:pr-[15vh] 2xl:pr-[15vh]">
+                        <!-- Electric Longboard Hero -->
+                        <div class="scrollTarget transition-all ease-in-out will-change-transform hover:shadow-lg hover:shadow-pink-400 bg-zinc-900/20
+                        w-[95%] sm:w-[93%] md:w-[96%] lg:w-[96%] xl:w-[96%] 2xl:w-[97%] h-fit flex flex-wrap flex-row justify-center border-double border-t-4 border-b-4 
+                        rounded-l rounded-r border-pink-400 group">
+                            <!-- <div class="absolute w-[150%] h-full inset-x-[-5vh] bg-zinc-800 bg-cover bg-center
+                            opacity-30 rounded-full border border-zinc-400"></div> -->
+                            <input id="projectOne" class="hidden peer" type="checkbox">
+                            <label for="projectOne" class="block cursor-pointer text-center text-neon-600 group-hover:text-neon-500 transition-all ease-in-out 
+                            font-Alpha font-thin text-xl sm:text-3xl md:text-4xl drop-shadow-[0_0_2px_#d946ef] select-none brightness-110
+                            peer-active:drop-shadow-[0.6vh_0.6vh_2px_#ec4899]">Electric Longboard</label>
+                            <section class=" transition-max-height duration-200 ease-in-out will-change-transform 
+                            overflow-hidden max-h-0 peer-checked:max-h-[800vh] bg-purple-600/10 rounded-xl">
+                                <!-- picture gallery -->
+                                <div class="flex overflow-x-auto gap-x-[10vh] py-[4vh] px-[10vh] transition-all ease-in-out
+                                scrollbar scrollbar-track-purple-800/30 scrollbar-thumb-pink-600/30 scroll-smooth
+                                scrollbar-h-[1vh] scrollbar-thumb-rounded-lg">
+                                    <div class="basis-1/2 lg:basis-1/3 h-fit my-auto scroll-mx-[4vh] hover:translate-y-[-2vh] transition-all ease-in-out
+                                    shrink-0">
+                                        <img class="aspect-square rounded-md cursor-pointer" src="/Dependencies/img/LongBoardSystemDiagram.png" alt="">
+                                    </div>
+                                    <div class="basis-1/3 lg:basis-1/4 scroll-mx-[4vh] hover:translate-y-[-2vh] transition-all ease-in-out
+                                    shrink-0">
+                                        <img class="rounded-md cursor-pointer" src="/Dependencies/img/eLongboard.png" alt="">
+                                    </div>
+                                    <div class="basis-1/2 lg:basis-1/3 h-fit my-auto scroll-mx-[4vh] hover:translate-y-[-2vh] transition-all ease-in-out
+                                    shrink-0">
+                                        <img class="rounded-md cursor-pointer" src="/Dependencies/img/eLongboardParts.png" alt="">
+                                    </div>
+                                </div>
+                                <!-- project description -->
+                                <ul role="list" class="pl-[3vh] list-outside list-image-neonBulletPoint marker:text-3xl font-Hacked text-pink-500">
+                                    <li class="">Electric longboard operating on a Raspberry Pi Zero W through PWM and controlled by a Nintendo Wiimote.</li>
+                                    <li class="">C hardware map for wiimote, Python 2 API to interface with wiimote, Raspian Jesse for bash automation and services</li>
+                                    <li class="">Powered by a 6s3p lithium ion battery pack with 30q cells, 21.6V, 9000mAh capacity, 194.4Wh, and a built-in BMS </li>
+                                    <li class="">Able to reach top speeds of 25mph and range of 15 miles.</li>
+                                </ul>
+                            </section>                                
+                        </div>
+                        <!-- Soil Sync Hero -->
+                        <div class="scrollTarget transition-all ease-in-out will-change-transform hover:shadow-lg hover:shadow-pink-400 bg-zinc-900/20
+                        w-[95%] sm:w-[93%] md:w-[96%] lg:w-[96%] xl:w-[96%] 2xl:w-[97%] h-fit flex flex-wrap flex-row justify-center border-double border-t-4 border-b-4 
+                        rounded-l rounded-r border-pink-400 group">
+                            <input id="projectTwo" class="hidden peer" type="checkbox">
+                            <label for="projectTwo" class="block cursor-pointer text-center text-neon-600 group-hover:text-neon-500 transition-all ease-in-out
+                            font-Alpha font-thin text-xl sm:text-3xl md:text-4xl drop-shadow-[0_0_2px_#d946ef] select-none brightness-110 
+                            peer-active:drop-shadow-[0.6vh_0.6vh_2px_#ec4899]">Soil Sync</label>
+                            <section class="transition-max-height duration-200 ease-in-out will-change-transform 
+                            overflow-hidden max-h-0 peer-checked:max-h-[100vh]">
+                                <!-- project description -->
+                                <p class="font-Hacked text-pink-500 text-center">
+                                    Soil Sync is a web application and IoT solution that allows users to track their plants' growth and health. 
+                                </p>
+                                <p class="font-Hacked text-pink-500 text-center">
+                                    More details to come soon.          
+                                </p>
+                            </section>                                
+                        </div>
+                        <!-- PubMed Query Hero -->
+                        <div class="scrollTarget transition-all ease-in-out will-change-transform hover:shadow-lg hover:shadow-pink-400 bg-zinc-900/20
+                        w-[95%] sm:w-[93%] md:w-[96%] lg:w-[96%] xl:w-[96%] 2xl:w-[97%] h-fit flex flex-wrap flex-row justify-center border-double border-t-4 border-b-4 
+                        rounded-l rounded-r border-pink-400 group">
+                            <input id="projectThree" class="hidden peer" type="checkbox">
+                            <label for="projectThree" class="inline cursor-pointer text-center text-neon-600 group-hover:text-neon-500 transition-all ease-in-out
+                            font-Alpha font-thin text-xl sm:text-3xl md:text-4xl drop-shadow-[0_0_2px_#d946ef] select-none brightness-110
+                            peer-active:drop-shadow-[0.6vh_0.6vh_2px_#ec4899]">PubMed Query Extractor</label>
+                            <section class="transition-max-height duration-200 ease-in-out will-change-transform 
+                            overflow-hidden max-h-0 peer-checked:max-h-[100vh]">
+                            <p class="font-Hacked text-pink-500 text-center">
+                                Web scrapper built with Puppeteer and C#/.NET to automate collection of journal links from PubMed based on user query input.
+                            </p>
+                            <p class="font-Hacked text-pink-500 text-center">
+                                More details to come soon.          
+                            </p>
+                            </section>                                
                         </div>
                     </div>
                 </div>
             </div>
         </main>
 
+        <!-- contacts section -->
+        <div id="Contacts">
+
+        </div>
+
+        <!-- biography section -->
+        <div id="Biography">
+            
+        </div>
         <!-- <div class="mx-auto w-fit h-fit aspect-square border border-double border-slate-700 rounded-full overflow-clip">
             <img class="opacity-50 h-40" src="/Dependencies/img/ProfilePic.png"> 
         </div> -->
-
-        
-        <!--
-
-            <footer>
-                <p>Socials <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">LinkedIn</a>.</p>
-            </footer>
-        
-        -->
         <script src="/Dependencies/events.js"></script>
-
-
     </body>
 </html>

@@ -11,14 +11,22 @@ module.exports = {
         'vintageNeon': 'url(/Dependencies/img/computersNeon.JPG)',
         'houstonNeon': 'url(/Dependencies/img/houstonBackgroundCyber.png)',
         'neonBackground': 'url(/Dependencies/img/neonBackdrop.png)',
+        'neonRetro': 'url(/Dependencies/img/neonRetro.png)',
+        'neonMobileRetro': 'url(/Dependencies/img/neonMobileRetro.png)',
         'neonSpeaker': 'url(/Dependencies/img/neonSpeaker.png)',
-        'neonChip': 'url(/Dependencies/img/neonChip.png)',
+        'neonChip': 'url(/Dependencies/img/NeonChip.png)',
         'neonWave': 'url(/Dependencies/img/neonWave.png)',
         'neonMicro': 'url(/Dependencies/img/neonMicro.png)',
-        'neonCity': 'url(/Dependencies/img/neonCity.jpg)',
+        'neonCity': 'url(/Dependencies/img/neonCity.png)',
+        'neonMobileCity': 'url(/Dependencies/img/neonMobileCity.png)',
         'neonMobile': 'url(/Dependencies/img/neonMobile.png)',
         'neonMobileWave': 'url(/Dependencies/img/neonMobileWave.png)',
-        'neonMobileTunnel': 'url(/Dependencies/img/neonMobileTunnel.png)'
+        'neonMobileTunnel': 'url(/Dependencies/img/neonMobileTunnel.png)',
+        'splashGrid': 'url(/Dependencies/img/splashGrid.png)',
+        'neonBulletPoint': 'url(/Dependencies/icons/neonBulletPoint.png)'
+      },
+      listStyleImage: {
+        'neonBulletPoint': 'url(/Dependencies/icons/neonBulletPoint.svg)'
       },
       fontFamily: {
         'Cyberpunk':['Cyberpunk', 'sans-serif'],
@@ -69,20 +77,37 @@ module.exports = {
         '20s': '20s'
       },
       animation: {
-        fadeIn: "fadeIn 1s ease-in normal",
-        expandVertical: "expandVertical 1s linear"
+        fadeIn: "fadeIn 1s forwards ease-in",
+        transitionToRight: "transitionToRight 1s forwards",
+        transitionFromTop: "transitionFromTop 1s forwards",
+        transitionFromBottom: "transitionFromBottom 1s forwards",
+        fadeOut: "fadeOut 1s forwards ease-in-out"
       },
       keyframes: {
         fadeIn: {
           "0%": { opacity: 0 },
           "100%": { opacity: 1 }
         },
-        expandVertical: {
-          "0%": { transform: "translateY(-100%)", opacity: 0 },
+        transitionToRight: {
+          "0%": { transform: "translateX(-20%)" , opacity: 0 },
+          "100%": { transform: "translateX(0)", opacity: 1 }
+        },
+        transitionFromTop: {
+          "0%": { transform: "translateY(-120%)" , opacity: 0 },
           "100%": { transform: "translateY(0)", opacity: 1 }
-        }
+        },
+        transitionFromBottom: {
+          "0%": { transform: "translateY(120%)" , opacity: 0 },
+          "100%": { transform: "translateY(0)", opacity: 1 }
+        },
+        fadeOut: {
+          "0%": { opacity: 1 },
+          "100%": { opacity: 0 }
+        },
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar')({ nocompatible: true })
+  ],
 }
