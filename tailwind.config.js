@@ -23,7 +23,13 @@ module.exports = {
         'neonMobileWave': 'url(/Dependencies/img/neonMobileWave.png)',
         'neonMobileTunnel': 'url(/Dependencies/img/neonMobileTunnel.png)',
         'splashGrid': 'url(/Dependencies/img/splashGrid.png)',
-        'neonBulletPoint': 'url(/Dependencies/icons/neonBulletPoint.png)'
+        'holographicDesk': 'url(/Dependencies/img/holographicDesk.png)',
+        'holographicSpace': 'url(/Dependencies/img/holographicSpace.png)',
+        'holographicSetup': 'url(/Dependencies/img/holographicSetup.png)',
+        'hongKong': 'url(/Dependencies/img/hongKong.png)',
+        'contactBoard': 'url(/Dependencies/img/contactBoard.png)',
+        'neonBulletPoint': 'url(/Dependencies/icons/neonBulletPoint.png)',
+        'cyberDude': 'url(/Dependencies/icons/neonBulletPointMobile.png)'
       },
       listStyleImage: {
         'neonBulletPoint': 'url(/Dependencies/icons/neonBulletPoint.svg)'
@@ -65,6 +71,7 @@ module.exports = {
       },
       transitionProperty:{
         'max-height': 'max-height',
+        'max-width': 'max-width',
         'height': 'height'
       },
       transitionDuration:{
@@ -92,9 +99,13 @@ module.exports = {
           "0%": { transform: "translateX(-20%)" , opacity: 0 },
           "100%": { transform: "translateX(0)", opacity: 1 }
         },
-        transitionFromTop: {
+        transitionFromTopOp: {
           "0%": { transform: "translateY(-120%)" , opacity: 0 },
           "100%": { transform: "translateY(0)", opacity: 1 }
+        },
+        transitionFromTop: {
+          "0%": { transform: "translateY(-120%)"},
+          "100%": { transform: "translateY(0)" }
         },
         transitionFromBottom: {
           "0%": { transform: "translateY(120%)" , opacity: 0 },
